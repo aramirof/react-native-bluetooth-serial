@@ -58,7 +58,7 @@ public class RCTBluetoothSerialModule extends ReactContextBaseJavaModule impleme
     private Promise mConnectedPromise;
     private Promise mDeviceDiscoveryPromise;
     private Promise mPairDevicePromise;
-    private String delimiter = "";
+    private String delimiter = "$END";
 
     public RCTBluetoothSerialModule(ReactApplicationContext reactContext) {
         super(reactContext);
